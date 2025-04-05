@@ -30,7 +30,7 @@ sudo waydroid container stop
 Pero al parecer no puedo sólo eliminar el contenedor. Después de correr los dos comandos anteriores puedo desinstalar waydroid con
 
 ```Bash
-sudo apt remove waydroid
+sudo dnf remove waydroid
 ```
 
 Luego tengo que reiniciar y hacer
