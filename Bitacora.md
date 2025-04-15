@@ -45,3 +45,9 @@ Waydroid al parecer utiliza `lxc` (Linux containers). Para ver el status y ver l
 waydroid status
 lxc list
 ```
+
+# Trabajando en una VM de Ubuntu
+
+Mmmmmm no me gustó waydroid, así que intentaré instalar Android Studio y Flutter en una VM de Ubuntu. Al parecer, Flutter se puede intalar en Ubuntu y Debian, por eso lo probaré en la VM.
+
+
