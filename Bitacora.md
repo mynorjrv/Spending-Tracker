@@ -50,4 +50,16 @@ lxc list
 
 Mmmmmm no me gustó waydroid, así que intentaré instalar Android Studio y Flutter en una VM de Ubuntu. Al parecer, Flutter se puede intalar en Ubuntu y Debian, por eso lo probaré en la VM.
 
+## Instalando Android studio
 
+Para instalar Android studio estpy siguiendo las instrucciones de 
+
+<https://developer.android.com/studio/install>
+
+que te manda a descargarlo a 
+
+<https://developer.android.com/studio>.
+
+Y ya empezaron con sus cosas de aceptar la licensia :) pero meh, esa es la intencion ahora.
+
+Del segundo link descargo un .tar.gz y ahora si puedo seguir las instrucciones.
