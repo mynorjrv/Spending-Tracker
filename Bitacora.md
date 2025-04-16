@@ -63,3 +63,14 @@ que te manda a descargarlo a
 Y ya empezaron con sus cosas de aceptar la licensia :) pero meh, esa es la intencion ahora.
 
 Del segundo link descargo un .tar.gz y ahora si puedo seguir las instrucciones.
+
+
+Antes de instalar android studio hay que instalar librerías de 32 bits, pero no se pueden instalar por default al parecer. Estaba leyendo en
+
+<https://askubuntu.com/questions/1304803/ubuntu-20-04-install-both-32-bit-and-64-bit-libraries>
+
+y en 
+
+<https://unix.stackexchange.com/questions/12956/how-do-i-run-32-bit-programs-on-a-64-bit-debian-ubuntu/541354#541354> 
+
+que hay que habilitar la arquitectura.
