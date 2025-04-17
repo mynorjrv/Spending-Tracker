@@ -74,3 +74,57 @@ y en
 <https://unix.stackexchange.com/questions/12956/how-do-i-run-32-bit-programs-on-a-64-bit-debian-ubuntu/541354#541354> 
 
 que hay que habilitar la arquitectura.
+
+Para imprimir las arquitecturas uso 
+
+```Bash
+dpkg --print-architecture
+dpkg --print-foreign-architectures
+```
+
+Esto debería imprimir `amd64` y `i386` pero no me me imprimió la segunda.
+
+
+Aparentemente a correr programas de una arquitectura en otra se le llama MultiArch y se menciona en 
+
+<https://help.ubuntu.com/community/MultiArch>
+
+pero no menciona cómo puedo habilitar la otra arquitectura xd
+
+Pero según el link de stackexchange, la arquitectura se agrega como 
+
+```Bash
+sudo dpkg --add-architecture i386
+sudo apt-get update
+```
+
+Y luego instalo la librería como 
+
+```Bash
+sudo apt-get isntall libXX:i386
+```
+
+Y ahora sí aparece como arquitectura foránea. 
+
+Como dato curioso, dpkg es un package manager de debian y supongo que significa Debian PacKaGe.
+
+Ahora sí, instalo las dependencias con
+
+```Bash
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+```
+
+JAJAJAJAJAJAJA yyy sigo sin poder instalar. Mentira, no había hecho update, pero no encuentra libncurses5:i386
+
+Según 
+
+<https://askubuntu.com/questions/1252062/how-to-install-libncurses-so-5-in-ubuntu-20-04>
+
+el problema es que libncurses está en los paquetes **universe**. Entonces primero tendría que hacer
+
+```Bash
+sudo add-apt-repository universe
+sudo apt-get install libncurses5 libncurses5:i386
+```
+
+Y noup... No funcionó. Weno a probar mañana. 
