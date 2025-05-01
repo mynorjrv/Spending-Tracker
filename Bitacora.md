@@ -101,7 +101,7 @@ sudo apt-get update
 Y luego instalo la librería como 
 
 ```Bash
-sudo apt-get isntall libXX:i386
+sudo apt-get install libXX:i386
 ```
 
 Y ahora sí aparece como arquitectura foránea. 
@@ -127,4 +127,10 @@ sudo add-apt-repository universe
 sudo apt-get install libncurses5 libncurses5:i386
 ```
 
-Y noup... No funcionó. Weno a probar mañana. 
+Y noup... No funcionó. Weno a probar mañana.
+
+Intenté lo de 
+
+https://askubuntu.com/questions/1367038/failed-to-download-libncurses5
+
+pero no funcionó. 
