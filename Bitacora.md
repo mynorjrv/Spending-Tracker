@@ -133,4 +133,57 @@ Intenté lo de
 
 https://askubuntu.com/questions/1367038/failed-to-download-libncurses5
 
-pero no funcionó. 
+pero no funcionó.
+
+## Instalando android studio pero en Ubuntu 22.04
+
+Porque no pude xd y al parecer en 22.04 es más fácil xd 
+
+Uy siiii xd ahora pude instalar de un solo 
+
+```Bash
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+```
+
+Soooo toca instalar android studio.
+
+Para decomprimir pero unzip no hace la chamba para -tar.gz sooooo leí de 
+
+<https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file> 
+
+y usé los comandos 
+
+```Bash
+tar -xf android-studio-2024.3.1.15-linux.tar.gz
+sudo mv android-studio /usr/local/
+```
+
+Ahora ejecuto el programa
+
+```Bash
+cd /usr/local/android-studio/bin/
+sh studio.sh
+```
+
+La instalación parace ir bien. Menciona que se puede usa VM acceleration y manda a 
+
+<https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux>
+
+... qué difícil instalar esta cosa xdxdxd
+pero ya está descargando cosas
+
+Yyyyy instalado. Ahora me sugiere pasarme a un native launcher y me manda a 
+
+<https://youtrack.jetbrains.com/articles/SUPPORT-A-56/Switch-to-a-native-launcher-notification>
+
+Al parecer se puede inciar la aplicación de manera "nativa" usanod 
+
+```Bash
+./studio
+```
+
+En lugar del `.sh`. Ahora crearé el ícono de escritorio como en las instrucciones. Se tiene que cerrar Studio y luego verificar si puedo entrar, sino hacer logout y regresar.
+
+Pero todo bieeeeeeeeeeeeeeeeeeeen n.n Esto fue un paseo por el parque comparado a Ubuntu 24.04 xdxdxd
+
+
