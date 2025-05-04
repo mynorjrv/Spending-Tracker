@@ -186,4 +186,7 @@ En lugar del `.sh`. Ahora crearé el ícono de escritorio como en las instruccio
 
 Pero todo bieeeeeeeeeeeeeeeeeeeen n.n Esto fue un paseo por el parque comparado a Ubuntu 24.04 xdxdxd
 
+## Error en virtual device
+
+Well well well, creo que aunque está funcionando bien paniquea por el espacio en disco para crear un teléfono virtual. Puedo hacer otra máquina o probar añadir espacio a esta. Otra cosa, empecé a probar el tutorial y creo que por ahora no añadiré código acá sino lo dejaré en una carpetita.
 
